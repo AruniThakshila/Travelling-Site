@@ -1,0 +1,565 @@
+*{
+    
+    margin: 0;
+    padding: 0;
+  
+    
+}
+
+#homeh  {
+
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(1.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+  
+    
+
+    
+.logo{
+    width: 80px;
+    height: 80px;
+    position:absolute;
+    top: 0px;
+    
+}
+
+ul{
+    
+    float: right;
+    list-style-type: none;
+    font-size: 18px;
+   
+    
+    
+}
+ul li
+{
+  display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+    font-weight: bold;
+    
+    
+}
+
+ul li a:hover{
+    background-color: #fff;
+    color: #000;
+    
+}
+ul li.active a{
+    background-color: #fff;
+    color: #000;
+}
+
+
+
+.main{
+    
+    margin: auto;
+    height: 10%;
+    background-color:darkcyan;
+   
+    
+}
+
+.title{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    
+}
+.title h1{
+    color: aliceblue;
+    font-size: 90px;
+   
+    font-family:serif;
+    
+}
+
+.button{
+    position:absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.btn{
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    color: aliceblue;
+    text-decoration: none;
+}
+.body{
+     font-size: 30px;
+    font-family: Lucida Handwriting;
+}
+
+.arch{
+    margin: 30;
+}
+.photo{
+    
+    width: 200px;
+    height: 1000px;
+}
+td{
+    text-align: center;
+    padding: 10px;
+}
+
+.container {
+  position: relative;
+  width: 400px;
+  height: 400px
+  margin: auto; 
+}
+
+.container .content {
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0); 
+  background: rgba(0, 0, 0, 0.5); 
+  color: #f1f1f1; 
+  width: 90%; 
+  padding: 20px; 
+}
+
+#img1{
+    width: 200px;
+    height: 295px;
+}
+#img2{
+    width: 200px;
+    height: 295px;
+}
+#img3{
+    height: 295px;
+}
+.container:hover{
+    
+    filter: brightness(120%);
+    transform: scale(1.09);
+}
+#heading2{
+    font-family: serif;
+    text-align:left;
+    font-size: 50px;
+    color: black;
+    text-shadow: 2px 2px 4px #000000;
+    
+}
+#heading1{
+    opacity: 0.2;
+    text-align:center;
+    font-size: 100px;
+}
+
+#img-footer{
+    width: 100px;
+    height: 130px;
+}
+#t2{
+    background-color:darkcyan;
+    width:100%;
+    height: 10%;
+    color: floralwhite;
+    font-size: 12px;
+    
+    
+    
+    
+}
+#p2{
+    font-size: 12px;
+    text-align: center;
+    font-family:serif; 
+}
+a {
+    text-decoration:none;
+    color: floralwhite;
+
+}
+#dis_p{
+    font-family: serif;
+    font-size: 20px;
+}
+#body_h{
+  margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+#h_1{
+    height: 250px;
+    
+}
+#h_2{
+   height: 270px;
+    width: 330px;
+}
+#gh1{
+    text-align: center;
+    font-size: 70px;
+    font-family: optima;
+}
+#g_table{
+    margin: 40px;
+    padding: 10px;
+    table-layout: fixed;
+    justify-content: center;
+    margin: 0 auto;
+    
+}
+
+    
+
+#g1{
+    width: 350px;
+    height: 250px;
+}
+#v1{
+   width: 80%; 
+    display: block;
+   margin: 0 auto;
+ 
+}
+#h_heri{
+    position:inherit;
+    font-size: 40px;
+    font-family: optima;
+    color: #154360;
+    text-align:justify;
+}
+#h_heri1{
+    
+    font-size: 70px;
+    font-family: optima;
+    text-align:center;
+    
+    
+}
+#heri_im{
+    width: 450px;
+    height: 350px;
+    border-radius: 15px;
+    
+    
+}
+#heri_im:hover{
+    filter: brightness(120%);
+    transform: scale(1.07);
+}
+
+#heri_t{
+    
+width: 100%;
+
+margin-left: auto;
+margin-right: auto;
+
+    
+}
+
+.heri_container {
+  position: relative;
+  width: 400px;
+  height: 400px
+  
+margin-right: auto;
+}
+
+
+
+.heri_container .heri_content {
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0); 
+  background: rgba(0, 0, 0, 0.5); 
+  color: #f1f1f1; 
+  width: 102%; 
+  padding: 20px; 
+}
+#heri_bt{
+ 
+ color:black;
+background-color: bisque;
+font-size: 15px;
+
+    
+}
+#heri_bt:hover {
+  background-color: black; 
+  color: white;
+}
+#h_td{
+    padding-left: 120px;
+    
+}
+
+#pic{
+    width: 50%;
+    height: 70%;
+    
+}
+#heri_p{
+    font-family: serif;
+    font-size: 20px;
+    background-color:#D4E6F1;
+    text-align: left;
+}
+#heri_h3{
+    font-family: serif;
+    color: black;
+    font-size: 20px;
+    text-align: right;
+}
+
+
+#h_hotel{
+    font-size: 70px;
+    font-family: optima;
+    text-align:center;
+    color: floralwhite;
+    
+}
+
+#main1 {
+  padding: 20px;
+}
+
+#form1 {
+  max-width: 400px;
+  margin: 0 auto;
+ color: aliceblue;
+ 
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="date"],
+input[type="number"],
+input[type="email"],
+select,
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+#h_submit {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#h_submit:hover {
+  background-color: #555;
+}
+footer {
+  background-color:darkcyan;
+
+  text-align: center;
+    
+
+}
+#bo_body{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(hotels1.jpg);
+    height: 100vh;
+    background-size:cover;
+    background-position: center;
+    background-size: 100% 200%;
+    
+}
+hotel-title{
+    text-align: center;
+}
+
+.package-title h2{
+    font-size: 40px;
+    font-weight: 650;
+    padding-top: 75px;
+    padding-bottom: 10px;
+    line-height: 2;
+}
+
+.hotel-content{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.image{
+    position: relative;
+    transition: all 0.3s cubic-bezier(0.445,0.05,0.55,0.95);
+    cursor: pointer;
+    filter: brightness(95%);
+}
+
+.image img{
+    width: 100%;
+    height: 300px;
+    border-radius: 40px;
+}
+
+.image h3{
+    color: white;
+    position: absolute;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    top: 10px;
+    right: 20px;
+}
+
+.dest-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 15px;
+    margin-bottom: 50px;
+}
+
+.hotel h4{
+    font-size: 25px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    margin-bottom: 2px;
+}
+
+.hotel-details li{
+    font-size: 19px;
+    color: #4c4c4c;
+    margin-left: 15px;
+    margin-bottom: 2px;
+    list-style-type: disc;
+}
+
+.image:hover{
+    filter: brightness(120%);
+    transform: scale(1.03);
+}
+#h_submit {
+  background-color: #F5B7B1;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+  font-size: 19px;
+  text-decoration: none;
+}
+
+#h_submit:hover {
+  background-color: linear-gradient(to bottom, #ff0000 0%, #ff66ff 100%);;
+ 
+}
+#g1:hover{
+    filter: brightness(120%);
+    transform: perspective(200px) rotateY(10deg);
+}
+#h_p{
+    width: 350px;
+    height: 450px;
+    border-radius: 30px;
+}
+#t_1{
+    padding: 150px;
+}
+.social-icons {
+  display: flex;
+}
+
+.social-icons a {
+  margin-right: 10px;
+  color: #000;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+.social-icons a:hover {
+  color:aliceblue;
+}
+
+.fa-facebook:before {
+  content: "\f09a";
+    
+}
+
+.fa-youtube:before {
+  content: "\f16a";
+    
+}
+
+.fa-instagram:before {
+  content: "\f16d";
+    
+}
+
+.fa-linkedin:before {
+  content: "\f0e1";
+   
+}
+
+.fa-print:before {
+  content: "\f02f";
+}
+#C_1{
+    text-align: left;
+    
+}
+#bo_im{
+    height: 450px;
+    width: 350px;
+    border-radius: 70px;
+    
+}
+#bo_im:hover{
+    filter: brightness(120%);
+    transform: scale(1.03);
+
+}
+#bo_t{
+    
+    display: flex;
+  justify-content: center;
+}
+#tdh_2{
+    width: 200px;
+}
+#pa_h3{
+    font-family:serif;
+    text-align:inherit;
+}
+#hotel_submit{
+    background-color: brown;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+  font-size: 19px;
+  text-decoration: none;
+}
+#hotel_submit:hover{
+    background: linear-gradient(to bottom, #ff0000 0%, #ff66ff 100%);
+}
